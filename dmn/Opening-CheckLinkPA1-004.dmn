@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="Definitions_1ck67l4" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.1.0">
+  <decision id="Decision_07nw5mf" name="Triage Riparazioni ">
+    <informationRequirement id="InformationRequirement_03adchm">
+      <requiredInput href="#InputData_1rk41xf" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_12q2sr1">
+      <requiredInput href="#InputData_1l6danf" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0y4tp1n">
+      <requiredInput href="#InputData_0zc5xbw" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0by92ax">
+      <requiredInput href="#InputData_0s6n052" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_17x1qt5">
+      <requiredInput href="#InputData_0qtnaz6" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_114h98g" hitPolicy="FIRST">
+      <input id="InputClause_17he4z6">
+        <inputExpression id="LiteralExpression_0rwvok7" typeRef="string">
+          <text>Azienda</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_08griwm">
+          <text></text>
+        </inputValues>
+      </input>
+      <input id="InputClause_1uc6ali" biodi:width="418">
+        <inputExpression id="LiteralExpression_1kwdx34" typeRef="string">
+          <text>Compagnia</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_0djb2ag">
+          <text></text>
+        </inputValues>
+      </input>
+      <input id="InputClause_0ffy4bu">
+        <inputExpression id="LiteralExpression_09ng09o" typeRef="string">
+          <text>DannoTipo</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_0vsq5rw">
+          <text></text>
+        </inputValues>
+      </input>
+      <input id="InputClause_0c4ip3h" biodi:width="192">
+        <inputExpression id="LiteralExpression_1spnl77" typeRef="integer">
+          <text>IntervalloDInizioDSinistro</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1a81t0i">
+        <inputExpression id="LiteralExpression_09efemb" typeRef="string">
+          <text>ContraenteTipo</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_0itn51v">
+          <text></text>
+        </inputValues>
+      </input>
+      <output id="OutputClause_0epon12" name="SceltaServizio" typeRef="string" biodi:width="192">
+        <outputValues id="UnaryTests_12q7cdc">
+          <text></text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_1qgaw2a">
+        <description></description>
+        <inputEntry id="UnaryTests_0sgeztw">
+          <text>"A&amp;A"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0j96qho">
+          <text>"Generali","UnipolSai"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_16taixn">
+          <text>"Danno Elettrico"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1wdwui9">
+          <text>&gt; 5</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_09vjby0">
+          <text>"Privato"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_14fgoiw">
+          <text>"Vendita Riparazione PA1"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1p2djaj">
+        <description></description>
+        <inputEntry id="UnaryTests_1tzjajq">
+          <text>"A&amp;A"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_06p2akw">
+          <text>"Generali","UnipolSai"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_15oilsc">
+          <text>"Danno Elettrico"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1kzrhck">
+          <text>&gt; 5</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_17w6r5z">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0j0b7js">
+          <text>"Vendita Riparazione PA1"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0vt3f62">
+        <description></description>
+        <inputEntry id="UnaryTests_0nt3eva">
+          <text>"Experta"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1nck7lh">
+          <text>"Allianz Viva.", "AXA","Cattolica","Generali","Helvetia","UnipolAssistance", "Vittoria"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_10lme2o">
+          <text>"Acqua Condotta"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0lhtsh7">
+          <text>&gt; 7</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0ek3gdo">
+          <text>"Privato"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0gnlwuv">
+          <text>"Vendita Riparazione PA1"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1et1dcc">
+        <inputEntry id="UnaryTests_1gv70iv">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0qdg2t2">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_117w1mi">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1cfzifm">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0evq1fo">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1og4r3y">
+          <text>"Nessun Servizio"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_1rk41xf" name="Azienda" />
+  <inputData id="InputData_1l6danf" name="Compagnia" />
+  <inputData id="InputData_0zc5xbw" name="DannoTipo" />
+  <inputData id="InputData_0s6n052" name="IntervalloDInizioDSinistro" />
+  <inputData id="InputData_0qtnaz6" name="ContraenteTipo" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape id="DMNShape_100r7yh" dmnElementRef="Decision_07nw5mf">
+        <dc:Bounds height="80" width="180" x="594" y="310" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_0kmz0k5" dmnElementRef="InputData_1rk41xf">
+        <dc:Bounds height="45" width="125" x="157" y="287" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1qf6gco" dmnElementRef="InformationRequirement_03adchm">
+        <di:waypoint x="282" y="310" />
+        <di:waypoint x="574" y="350" />
+        <di:waypoint x="594" y="350" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0p7o5cc" dmnElementRef="InputData_1l6danf">
+        <dc:Bounds height="45" width="125" x="187" y="167" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_190jw2f" dmnElementRef="InformationRequirement_12q2sr1">
+        <di:waypoint x="250" y="212" />
+        <di:waypoint x="630" y="290" />
+        <di:waypoint x="630" y="310" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0gm2agf" dmnElementRef="InputData_0zc5xbw">
+        <dc:Bounds height="45" width="125" x="267" y="77" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_07re9wy" dmnElementRef="InformationRequirement_0y4tp1n">
+        <di:waypoint x="330" y="122" />
+        <di:waypoint x="666" y="290" />
+        <di:waypoint x="666" y="310" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_05kaout" dmnElementRef="InputData_0s6n052">
+        <dc:Bounds height="45" width="125" x="592" y="88" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0wx061f" dmnElementRef="InformationRequirement_0by92ax">
+        <di:waypoint x="655" y="133" />
+        <di:waypoint x="702" y="290" />
+        <di:waypoint x="702" y="310" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0l06b97" dmnElementRef="InputData_0qtnaz6">
+        <dc:Bounds height="45" width="125" x="818" y="128" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0phh1mz" dmnElementRef="InformationRequirement_17x1qt5">
+        <di:waypoint x="881" y="173" />
+        <di:waypoint x="738" y="290" />
+        <di:waypoint x="738" y="310" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
