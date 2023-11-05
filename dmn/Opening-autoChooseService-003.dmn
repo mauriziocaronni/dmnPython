@@ -28,15 +28,36 @@
     <informationRequirement id="InformationRequirement_0i869sy">
       <requiredInput href="#InputData_04nakbc" />
     </informationRequirement>
+    <informationRequirement id="InformationRequirement_0nefsjg">
+      <requiredInput href="#InputData_0pqqncx" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_198usd0">
+      <requiredInput href="#InputData_0c2j4pg" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1csg0z8">
+      <requiredInput href="#InputData_1cfu6z7" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_19svhc2">
+      <requiredInput href="#InputData_0pvgzo0" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_05cqust">
+      <requiredInput href="#InputData_1yo186y" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_19ujhrt">
+      <requiredInput href="#InputData_1lpm6oo" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0de4i2e">
+      <requiredInput href="#InputData_1ygt74x" />
+    </informationRequirement>
     <decisionTable id="DecisionTable_2hrkdf2" hitPolicy="FIRST">
       <input id="Input_35f0f97" label="Azienda">
         <inputExpression id="InputExpression_2r1is16" typeRef="string">
           <text>Azienda</text>
         </inputExpression>
       </input>
-      <input id="Input_0q9esl0" label="Compagnia ">
+      <input id="Input_0q9esl0" label="Compagnia">
         <inputExpression id="InputExpression_0a2r5dl" typeRef="string">
-          <text>Compagnia </text>
+          <text>Compagnia</text>
         </inputExpression>
       </input>
       <input id="Input_2bedh1s" label="DannoTipo">
@@ -44,72 +65,72 @@
           <text>DannoTipo</text>
         </inputExpression>
       </input>
-      <input id="Input_0aikl5b" label="Ammontare del danno richiesto ">
+      <input id="Input_0aikl5b" label="AmmontareDanno">
         <inputExpression id="InputExpression_37upe8c" typeRef="integer">
           <text>AmmontareDanno</text>
         </inputExpression>
       </input>
       <input id="InputClause_0b625ma" label="Riserva">
-        <inputExpression id="LiteralExpression_0pcnms5" typeRef="string">
-          <text></text>
+        <inputExpression id="LiteralExpression_0pcnms5" typeRef="integer">
+          <text>-</text>
         </inputExpression>
       </input>
-      <input id="Input_2o56qa5" label="Cesi ">
+      <input id="Input_2o56qa5" label="CESI">
         <inputExpression id="InputExpression_00upeca" typeRef="string">
           <text>CESI</text>
         </inputExpression>
       </input>
-      <input id="InputClause_0ukokqi" label="Ricerca del guasto eseguita" biodi:width="192">
+      <input id="InputClause_0ukokqi" label="RicercaDelGuasto" biodi:width="192">
         <inputExpression id="LiteralExpression_0w19e3g" typeRef="boolean">
-          <text></text>
+          <text>RicercaDelGuasto</text>
         </inputExpression>
       </input>
-      <input id="InputClause_1kr10cm" label="Tag SharePoint" biodi:width="192">
+      <input id="InputClause_1kr10cm" label="TagSharePoint" biodi:width="192">
         <inputExpression id="LiteralExpression_0zs2ncv" typeRef="string">
-          <text></text>
+          <text>TagSharePoint</text>
         </inputExpression>
       </input>
-      <input id="InputClause_0zsz6p1" label="Tag Incarico">
+      <input id="InputClause_0zsz6p1" label="TagIncarico">
         <inputExpression id="LiteralExpression_1i9d0bo" typeRef="string">
-          <text></text>
+          <text>TagIncarico</text>
         </inputExpression>
       </input>
-      <input id="InputClause_0bh2m0h" label="Bene Tipo">
+      <input id="InputClause_0bh2m0h" label="BeneTipo">
         <inputExpression id="LiteralExpression_0t0xqts" typeRef="string">
-          <text></text>
+          <text>BeneTipo</text>
         </inputExpression>
       </input>
-      <input id="InputClause_0ege1t0" label="Pronta liquidazione richiesta">
+      <input id="InputClause_0ege1t0" label="ProntaLiquidazioneRichiesta">
         <inputExpression id="LiteralExpression_0tcdwna" typeRef="boolean">
-          <text></text>
+          <text>ProntaLiquidazioneRichiesta</text>
         </inputExpression>
       </input>
       <input id="InputClause_0extmc4" label="Agenzia">
         <inputExpression id="LiteralExpression_1qrzhqr" typeRef="string">
-          <text></text>
+          <text>-</text>
         </inputExpression>
       </input>
-      <input id="Input_3b3o1o5" label="Contraente tipo">
+      <input id="Input_3b3o1o5" label="ContraenteTipo">
         <inputExpression id="InputExpression_2simpqj" typeRef="string">
           <text>ContraenteTipo</text>
         </inputExpression>
       </input>
-      <input id="Input_176jrv8" label="Ubicazione del rischio">
+      <input id="Input_176jrv8" label="LuogoSinistro">
         <inputExpression id="InputExpression_3dkrabk" typeRef="string">
           <text>LuogoSinistro</text>
         </inputExpression>
       </input>
-      <input id="Input_3jvtflv" label="Telefono Assicurato">
+      <input id="Input_3jvtflv" label="TelefonoAssicurato">
         <inputExpression id="InputExpression_1pird1i" typeRef="string">
           <text>TelefonoAssicurato</text>
         </inputExpression>
       </input>
-      <input id="Input_14i677v" label="SelfCare Eseguito">
+      <input id="Input_14i677v" label="SelfCareEseguito">
         <inputExpression id="InputExpression_2t6nmic" typeRef="boolean">
           <text>SelfCareEseguito</text>
         </inputExpression>
       </input>
-      <output id="Output_3kvc5bt" label="Scelta Servizio " name="Scelta Servizio " typeRef="string" />
+      <output id="Output_3kvc5bt" label="Scelta Servizio " name="Scelta Servizio" typeRef="string" />
       <rule id="Rule_2mepdsh">
         <description></description>
         <inputEntry id="InputEntry_2u6j4uv">
@@ -122,31 +143,31 @@
           <text>"Acqua Condotta", "Eventi naturali", "lastre", "guasto ladri", "atto vandalico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_3vvvhjp">
-          <text>&lt; 3500 </text>
+          <text>&lt;3500 </text>
         </inputEntry>
         <inputEntry id="UnaryTests_0kbxvlv">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_21bohme">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06k1azg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1wmpe2d">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1607m08">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1b2il57">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ykksuq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_02fqbwu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_3kkqktf">
           <text> "Privato", "Condominio", "ufficio", "Negozio", "azienda" </text>
@@ -176,31 +197,31 @@
           <text>"Acqua Condotta", "Eventi naturali", "lastre", "guasto ladri", "atto vandalico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_1e8gm09">
-          <text>&lt; 1500 </text>
+          <text>&lt;1500 </text>
         </inputEntry>
         <inputEntry id="UnaryTests_1831e5i">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2ac7abl">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1c287b3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0pvs5jj">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06vtlf3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04sfoth">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gd643a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_11fnds1">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_22o1qrt">
           <text> "Privato", "Condominio" </text>
@@ -230,31 +251,31 @@
           <text>not("R.C. Nautica", "R.C. Operatori", "R.C. Prodotti", "R.C. Professionale", "Rapina", "RC Auto", "Responsabilità civile","RC AC")</text>
         </inputEntry>
         <inputEntry id="InputEntry_15vchf8">
-          <text>&lt; 5000 </text>
+          <text>&lt;5000 </text>
         </inputEntry>
         <inputEntry id="UnaryTests_1cdm3nf">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_1bngfm4">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1iu9yqk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0l6dfi0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0q0um75">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ue5f5n">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_15o2pee">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_185r8pg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_32b0efl">
           <text> "Privato", "Condominio" </text>
@@ -287,28 +308,28 @@
           <text>[1500..5000]</text>
         </inputEntry>
         <inputEntry id="UnaryTests_16by5sq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_3a22t53">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0glmpd2">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ckewzc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1nv7sum">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0s65q14">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0z1tsiw">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qkwitg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_17bavkm">
           <text>"Negozio", "azienda" </text>
@@ -338,31 +359,31 @@
           <text>"Danno Elettrico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_0f2ih8h">
-          <text>&lt; 1500</text>
+          <text>&lt;1500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_17z64pm">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2tajubp">
           <text>"Assenza", "Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1v3q7ub">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0aspnyi">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_15w8l12">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1sb2zhh">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rpj77e">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1274i22">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2pojaov">
           <text> "Privato" </text>
@@ -395,28 +416,28 @@
           <text>[1000..8999]</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0a6td6k">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_1aoa779">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_150c5lc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_17voljv">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_01gu21p">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0171klb">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1hcwv8s">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08ff1lu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2232nmi">
           <text> "Condominio" </text>
@@ -449,28 +470,28 @@
           <text>[1000..8999]</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rk7131">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2caml9m">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_14jijnx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1rsx8pr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_112acn5">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0disoza">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1duxu1v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_11tth1l">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_13nbrkq">
           <text> "Privato" </text>
@@ -500,31 +521,31 @@
           <text>"Fenomeno Elettrico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_2k8osnk">
-          <text>&lt;= 500</text>
+          <text>&lt;=500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1nt1h6m">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_22sh0nl">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1kk14zp">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qph57q">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18odokb">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0pe6s5z">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04pdumg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ey0z2t">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2ops0vd">
           <text> "Privato", "Condominio"  </text>
@@ -554,31 +575,31 @@
           <text>"Fenomeno Elettrico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_150j9fa">
-          <text>&lt;= 500</text>
+          <text>&lt;=500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04vqto4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0nmhes0">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1xb4qk5">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1rq7qqp">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1aarnwf">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_09z7p4k">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dfkp15">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_061j42s">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0jmlfbs">
           <text> "Privato", "Condominio"  </text>
@@ -608,31 +629,31 @@
           <text>"Fenomeno Elettrico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_28r7bea">
-          <text>&lt;= 1000</text>
+          <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1uo8ndf">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_00p12p5">
           <text>"Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1lw0wy2">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1icw2l2">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wdc68s">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06af83b">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qlfj1m">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_01342zc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_05gmt9j">
           <text> "Privato", "Condominio"  </text>
@@ -662,31 +683,31 @@
           <text>"Fenomeno Elettrico"</text>
         </inputEntry>
         <inputEntry id="InputEntry_0gdrg0t">
-          <text>&lt;= 1000</text>
+          <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1lxazsu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_14r19pl">
           <text>"Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00d9nkc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_14vsny5">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1b2kyhi">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12wnase">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0lhpo3e">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qtj2kx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2kfp943">
           <text> "Privato", "Condominio"  </text>
@@ -719,28 +740,28 @@
           <text>&lt;=1500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1h2ebvd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2u6fk0c">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0647vqd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0dhgb85">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1duixyx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0mujzps">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_17vk8sb">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08wy5m7">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0cbpona">
           <text> "Privato", "Condominio"  </text>
@@ -773,28 +794,28 @@
           <text>&lt;=1500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_045lk25">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_2b562kb">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ttl3g9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rusnkn">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0gotlrg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0t4w64i">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0anwb87">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0f46a1x">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_1tqekr9">
           <text> "Privato", "Condominio"  </text>
@@ -827,28 +848,28 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0s99cjw">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0b5e0oi">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1l9kezz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1kwi4c6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qw91yg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0szrdcc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1vaay4i">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_19bqynt">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_3gnh2m6">
           <text> "Privato", "Condominio"  </text>
@@ -881,28 +902,28 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08y4oft">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_3b547e6">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ssqnnu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1pj846x">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_15lp67u">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_19v4tsz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1utxvmt">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1afyre9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_280aqmb">
           <text> "Privato", "Condominio"  </text>
@@ -935,28 +956,28 @@
           <text>&gt;=1001</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1djvc4p">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_35hdiul">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1fpygbq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0sprrl8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qzuqia">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1132675">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1judf7r">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1op8zwi">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_1r7ij2p">
           <text> "Privato", "Condominio"  </text>
@@ -986,31 +1007,31 @@
           <text>"Acqua condotta", "Eventi naturali", "Incendio", "lastre", "guasto ladri", "atto vandalico", "RC AC"</text>
         </inputEntry>
         <inputEntry id="InputEntry_0dh46vn">
-          <text>&lt; 5000</text>
+          <text>&lt;5000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_19wttp9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0qmnoat">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1bxkqg7">
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06tvrl7">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_10yfkyu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1etqer8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0e9jt42">
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ew3qg8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="InputEntry_0bvhaus">
           <text> "Privato", "Condominio"  </text>
@@ -1039,13 +1060,13 @@
           <text>"Acqua condotta", "Eventi naturali", "Incendio", "lastre", "guasto ladri", "atto vandalico", "RC AC"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1iuliz0">
-          <text>&lt; 5000</text>
+          <text>&lt;5000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dqlft0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1i82vcx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12du6ou">
           <text>true</text>
@@ -1054,28 +1075,28 @@
           <text>"Foto danno"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1680woe">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_19212f8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0r3ocbt">
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1hrj47n">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0lffkyk">
           <text> "Privato", "Condominio"  </text>
         </inputEntry>
         <inputEntry id="UnaryTests_0f4qmek">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ervy0v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ob18ah">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_17wpsmi">
           <text>"Documentale"</text>
@@ -1092,43 +1113,43 @@
           <text>"Acqua condotta", "Eventi naturali", "Incendio", "lastre", "guasto ladri", "atto vandalico", "RC AC"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ahav64">
-          <text>&lt; 3000</text>
+          <text>&lt;3000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ce6ohl">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_07ebs8p">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ph4iim">
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_14w9psk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0n87a7z">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0mf7l5z">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1w78ivb">
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0t6o73a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ybe564">
           <text> "Privato", "Condominio" , "Uffici", "Negozio", "Azienda"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0pm79v0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1mjgfyz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_127oe9m">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0umpuay">
           <text>"Visio"</text>
@@ -1145,22 +1166,22 @@
           <text>"danno elettrico"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1uaqhek">
-          <text>&lt; 2000</text>
+          <text>&lt;2000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ueooao">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18jvl19">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qeip29">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0imr7vm">
           <text>"Giustificativo", "Foto bene"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0dzi3m8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_15bt9j1">
           <text>not ("motori", "macchinari", "impianti")</text>
@@ -1169,19 +1190,19 @@
           <text>true</text>
         </inputEntry>
         <inputEntry id="UnaryTests_02ysym8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0s0r1yq">
           <text>"Uffici", "Negozio", "Azienda"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_021ca45">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1t9oghr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1db689w">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_01z5ppz">
           <text>"Documentale"</text>
@@ -1198,43 +1219,43 @@
           <text>"Acqua condotta", "Eventi naturali", "Incendio", "lastre", "guasto ladri", "atto vandalico", "RC AC"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wh1oh8">
-          <text>&lt; 3000</text>
+          <text>&lt;3000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ojssu3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ndep7p">
           <text>"Assenza", "Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ot2gpc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1yx9uuk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1rgvf5a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1f26zta">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rdz89a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0o77882">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1s81r12">
           <text> "Privato", "Condominio" , "Uffici", "Negozio", "Azienda"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_03te0au">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1oj81ey">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1l8qhx1">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0249y5o">
           <text>"Visio"</text>
@@ -1254,25 +1275,25 @@
           <text>[1000..8999]</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12bk585">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_11m1zbe">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dxywr4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_07fgs8h">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ur3u9k">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1cuugt6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0g5p1mi">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00k63ik">
           <text>not("ag 1212")</text>
@@ -1287,7 +1308,7 @@
           <text>not(null)</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1a6qm6y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_1p82q7p">
           <text>"Sopralluogo"</text>
@@ -1307,25 +1328,25 @@
           <text>&lt;=500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1r6iy19">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xt8lvw">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0a30459">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1uza63v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1wbx28y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18jv2qk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0yh99uc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1m6sryd">
           <text>not("ag 1212")</text>
@@ -1360,25 +1381,25 @@
           <text>&lt;=500</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ngt3j6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1h8h83s">
           <text>"Assenza"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1vii6a8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gk7wxg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12nd6z8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wpmjom">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1boaedy">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qyxqxz">
           <text>not("ag 1212")</text>
@@ -1413,25 +1434,25 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0lm46gq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ck1s5k">
           <text>"Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_045p9jd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_13h2itz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1x7v13i">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xylis2">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1yo842h">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_16a99ip">
           <text>not("ag 1212")</text>
@@ -1466,25 +1487,25 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08yr56m">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0c53vf9">
           <text>"Oltre"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0tqnxqp">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0e8n4a8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08gzrm3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qgwfbn">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_01cny8v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1i8kusz">
           <text>not("ag 1212")</text>
@@ -1519,25 +1540,25 @@
           <text>&lt;=2000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0396oha">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ctik42">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0mf7zna">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1105uue">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_117iuqr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0or9n5u">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1b0e0o3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dgocxj">
           <text>not("ag 1212")</text>
@@ -1572,25 +1593,25 @@
           <text>&lt;=2000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_05q1bei">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1pm4c5y">
           <text>"Entro"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0uyaotk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0dmhdv0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wo8u2r">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0l4mdsp">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qxed6w">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dnwh5m">
           <text>not("ag 1212")</text>
@@ -1625,25 +1646,25 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ybewna">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1vxc9qz">
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1u6wkae">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_14nikot">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_14oi2h4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0y3bnkd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04q5vf3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1y89qao">
           <text>not("ag 1212")</text>
@@ -1678,25 +1699,25 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1x7vzq9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1c6c69a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_10o8ut6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0y577hc">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1cyfw1b">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ywdlp0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1peatrq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gmkeei">
           <text>not("ag 1212")</text>
@@ -1731,40 +1752,40 @@
           <text>&lt;=20000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00yvvww">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0o9lora">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_048rqa4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_02aemfl">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_03z6zm1">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0b045i0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1g2m0ci">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1s3xgmq">
           <text>"ag 1212"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06xicmq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04ehacd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0u5m1gd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ao1yoq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_10jrwl0">
           <text>"Sopralluogo"</text>
@@ -1781,43 +1802,43 @@
           <text>"RC AC"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0vwrzd9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_10nuidk">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1lvg0e8">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0n538el">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xq7rko">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_087hw83">
           <text>"IncaricoCollegato"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1yuiw60">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1nbu1o1">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1g3wwk7">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0pe3bem">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0k8s81p">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_17kfnq6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00slab9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_1g6vzm1">
           <text>"Documentale"</text>
@@ -1831,46 +1852,46 @@
           <text>"UnipolSai"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1acct2r">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0tksxin">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_10q5oov">
-          <text>&lt; 5000</text>
+          <text>&lt;5000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_15xzdlm">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1v08vl1">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1o2nhd3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0st90zl">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_076up6u">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1o26i2f">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1xtqb6y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_08ua46v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_02cw8zf">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1wj96hs">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1upcigj">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_01ya0zh">
           <text>"Visio"</text>
@@ -1884,46 +1905,46 @@
           <text>"UnipolSai", "Arca Assicurazioni", "Assicuratrice milanese"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_06pkufx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1bcmnrg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dxphzp">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0hma6bg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1edovmb">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_00amtyq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1s302l3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1mjz0x6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qsi1hy">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1vr329v">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qf8wln">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1may7p0">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0vkbd6y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xxd437">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_08ohsxf">
           <text>"Sopralluogo"</text>
@@ -1943,40 +1964,40 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wt3h2s">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1bj9ikm">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ru236a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0o4skwz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1o7znqd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rlmyli">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1t78200">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1z083gr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1xvy48x">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1lc0es3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_04y7n1m">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0fcfzem">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0ikt52z">
           <text>"Visio"</text>
@@ -1996,40 +2017,40 @@
           <text>&gt;1001</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1x1pob3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0zw03xy">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0udnl1a">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0h8ed88">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rkhdvr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qcdvsw">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0an0mf6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_125ptf2">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ko3ekw">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1hsn3o6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1e18vfd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_051gdcq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_04mz5y6">
           <text>"Sopralluogo"</text>
@@ -2046,43 +2067,43 @@
           <text>not("Responsabilita Civile")</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12tizdx">
-          <text>&lt;= 1000</text>
+          <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_02nlvsl">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_07fbq6x">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wbh549">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0a2khr6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18phhfi">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gquqpv">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ufimyh">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ysgcs4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gh99vx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xh8c8y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0cumad4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xma02t">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_1g6zsnx">
           <text>"Visio"</text>
@@ -2102,40 +2123,40 @@
           <text>[1000..3000]</text>
         </inputEntry>
         <inputEntry id="UnaryTests_068203y">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gmgzbs">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_03tbu4c">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1wn7sgs">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1g2jo2s">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_10fhmy9">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ih88x4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_13t0vgg">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0pimexa">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_160nqy5">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_12e2b89">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xvc9aj">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0bs4r4q">
           <text>"Visio"</text>
@@ -2149,46 +2170,46 @@
           <text>"Intesa SanPaolo Assicura"</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qsmysy">
-          <text>not(Responsabilità Civile)</text>
+          <text>not("Responsabilità Civile")</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1xij7vc">
           <text>&gt;3000</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1dmrkuu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0rjx4gs">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0atzwly">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0z820mz">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1edehof">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0scp1h6">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1qnkjjd">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1mjcuwo">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wgctge">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1shoevv">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1koepgq">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ey1z45">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0iq6r86">
           <text>"Nessun Servizio"</text>
@@ -2199,49 +2220,49 @@
           <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0xvmell">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0capaf3">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1gwi34e">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_18m8heu">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0hge3tn">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1vmn0yf">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0bz26m4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1tz1a7t">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_05yhm36">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1kl4wit">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0vhdbjx">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1u51z1o">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0kuavev">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_1v8y3w4">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ayugjr">
-          <text></text>
+          <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_06n7351">
           <text>"Nessun Servizio"</text>
@@ -2253,87 +2274,150 @@
   <inputData id="InputData_1xbcm3m" name="Compagnia" />
   <inputData id="InputData_1gxxnyr" name="DannoTipo" />
   <inputData id="InputData_1tf8vj8" name="AmmontareDanno" />
-  <inputData id="InputData_1fje2r3" name="CESIpositivo1500m" />
+  <inputData id="InputData_1fje2r3" name="CESI" />
   <inputData id="InputData_1an2dph" name="ContraenteTipo" />
   <inputData id="InputData_1px2nvt" name="LuogoSinistro" />
   <inputData id="InputData_07o4m29" name="TelefonoAssicurato" />
   <inputData id="InputData_04nakbc" name="SelfCareEseguito" />
+  <inputData id="InputData_0pqqncx" name="RicercaDelGuasto" />
+  <inputData id="InputData_0c2j4pg" name="Riserva" />
+  <inputData id="InputData_1cfu6z7" name="TagSharePoint" />
+  <inputData id="InputData_0pvgzo0" name="TagIncarico" />
+  <inputData id="InputData_1yo186y" name="BeneTipo" />
+  <inputData id="InputData_1lpm6oo" name="ProntaLiquidazioneRichiesta" />
+  <inputData id="InputData_1ygt74x" name="Agenzia" />
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="DMNDiagram_1gebjqx">
       <dmndi:DMNShape id="DMNShape_18e0nnw" dmnElementRef="Decision_08no0ms">
-        <dc:Bounds height="80" width="180" x="520" y="380" />
+        <dc:Bounds height="80" width="180" x="470" y="510" />
       </dmndi:DMNShape>
       <dmndi:DMNShape id="DMNShape_1egrho4" dmnElementRef="InputData_1cqxdqt">
-        <dc:Bounds height="45" width="125" x="157" y="197" />
+        <dc:Bounds height="45" width="125" x="157" y="398" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_1y0g2tu" dmnElementRef="InformationRequirement_0kwu7ti">
-        <di:waypoint x="220" y="242" />
-        <di:waypoint x="543" y="360" />
-        <di:waypoint x="543" y="380" />
+        <di:waypoint x="220" y="443" />
+        <di:waypoint x="483" y="490" />
+        <di:waypoint x="483" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_0ofw9md" dmnElementRef="InputData_1xbcm3m">
-        <dc:Bounds height="45" width="125" x="157" y="127" />
+        <dc:Bounds height="45" width="125" x="187" y="317" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_08qi8yx" dmnElementRef="InformationRequirement_1ofkb0w">
-        <di:waypoint x="220" y="172" />
-        <di:waypoint x="565" y="360" />
-        <di:waypoint x="565" y="380" />
+        <di:waypoint x="250" y="362" />
+        <di:waypoint x="496" y="490" />
+        <di:waypoint x="496" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_1q7ywp9" dmnElementRef="InputData_1gxxnyr">
-        <dc:Bounds height="45" width="125" x="308" y="78" />
+        <dc:Bounds height="45" width="125" x="217" y="227" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_0pq0jmj" dmnElementRef="InformationRequirement_05117x9">
-        <di:waypoint x="371" y="123" />
-        <di:waypoint x="588" y="360" />
-        <di:waypoint x="588" y="380" />
+        <di:waypoint x="280" y="272" />
+        <di:waypoint x="509" y="490" />
+        <di:waypoint x="509" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_0ae6ie9" dmnElementRef="InputData_1tf8vj8">
-        <dc:Bounds height="45" width="125" x="538" y="88" />
+        <dc:Bounds height="45" width="125" x="257" y="137" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_08i5d63" dmnElementRef="InformationRequirement_14mmo6d">
-        <di:waypoint x="601" y="133" />
-        <di:waypoint x="610" y="360" />
-        <di:waypoint x="610" y="380" />
+        <di:waypoint x="320" y="182" />
+        <di:waypoint x="521" y="490" />
+        <di:waypoint x="521" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_17jcjqc" dmnElementRef="InputData_1fje2r3">
-        <dc:Bounds height="45" width="125" x="718" y="98" />
+        <dc:Bounds height="45" width="125" x="567" y="47" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_0aqinrj" dmnElementRef="InformationRequirement_1u9ako2">
-        <di:waypoint x="781" y="143" />
-        <di:waypoint x="633" y="360" />
-        <di:waypoint x="633" y="380" />
+        <di:waypoint x="630" y="92" />
+        <di:waypoint x="547" y="490" />
+        <di:waypoint x="547" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_1auv95n" dmnElementRef="InputData_1an2dph">
-        <dc:Bounds height="45" width="125" x="898" y="128" />
+        <dc:Bounds height="45" width="125" x="1387" y="417" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_1rzfdgg" dmnElementRef="InformationRequirement_1s63sh1">
-        <di:waypoint x="961" y="173" />
-        <di:waypoint x="655" y="360" />
-        <di:waypoint x="655" y="380" />
+        <di:waypoint x="1450" y="462" />
+        <di:waypoint x="624" y="490" />
+        <di:waypoint x="624" y="510" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_1fp9cta" dmnElementRef="InputData_1px2nvt">
-        <dc:Bounds height="45" width="125" x="958" y="278" />
+        <dc:Bounds height="45" width="125" x="1357" y="507" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_1ot9t7r" dmnElementRef="InformationRequirement_1foolle">
-        <di:waypoint x="1021" y="323" />
-        <di:waypoint x="678" y="360" />
-        <di:waypoint x="678" y="380" />
+        <di:waypoint x="1357" y="530" />
+        <di:waypoint x="670" y="550" />
+        <di:waypoint x="650" y="550" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_06pf9fb" dmnElementRef="InputData_07o4m29">
-        <dc:Bounds height="45" width="125" x="828" y="398" />
+        <dc:Bounds height="45" width="125" x="1207" y="617" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_0h39hty" dmnElementRef="InformationRequirement_1vi99ml">
-        <di:waypoint x="828" y="421" />
-        <di:waypoint x="720" y="420" />
-        <di:waypoint x="700" y="420" />
+        <di:waypoint x="1270" y="617" />
+        <di:waypoint x="590" y="610" />
+        <di:waypoint x="590" y="590" />
       </dmndi:DMNEdge>
       <dmndi:DMNShape id="DMNShape_10eqrxl" dmnElementRef="InputData_04nakbc">
-        <dc:Bounds height="45" width="125" x="778" y="498" />
+        <dc:Bounds height="45" width="125" x="987" y="697" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="DMNEdge_1956ksy" dmnElementRef="InformationRequirement_0i869sy">
-        <di:waypoint x="841" y="498" />
-        <di:waypoint x="610" y="480" />
-        <di:waypoint x="610" y="460" />
+        <di:waypoint x="1050" y="697" />
+        <di:waypoint x="530" y="610" />
+        <di:waypoint x="530" y="590" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1r3w7no" dmnElementRef="InputData_0pqqncx">
+        <dc:Bounds height="45" width="125" x="765" y="47" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1b1ucmp" dmnElementRef="InformationRequirement_0nefsjg">
+        <di:waypoint x="828" y="92" />
+        <di:waypoint x="560" y="490" />
+        <di:waypoint x="560" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_11cq233" dmnElementRef="InputData_0c2j4pg">
+        <dc:Bounds height="45" width="125" x="437" y="97" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1nx2rw6" dmnElementRef="InformationRequirement_198usd0">
+        <di:waypoint x="500" y="142" />
+        <di:waypoint x="534" y="490" />
+        <di:waypoint x="534" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_17z4zst" dmnElementRef="InputData_1cfu6z7">
+        <dc:Bounds height="45" width="125" x="947" y="57" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0t2c8ao" dmnElementRef="InformationRequirement_1csg0z8">
+        <di:waypoint x="1010" y="102" />
+        <di:waypoint x="573" y="490" />
+        <di:waypoint x="573" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1qjgown" dmnElementRef="InputData_0pvgzo0">
+        <dc:Bounds height="45" width="125" x="1167" y="57" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_15oqcak" dmnElementRef="InformationRequirement_19svhc2">
+        <di:waypoint x="1230" y="102" />
+        <di:waypoint x="586" y="490" />
+        <di:waypoint x="586" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1oade17" dmnElementRef="InputData_1yo186y">
+        <dc:Bounds height="45" width="125" x="1287" y="117" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_02icmt1" dmnElementRef="InformationRequirement_05cqust">
+        <di:waypoint x="1350" y="162" />
+        <di:waypoint x="599" y="490" />
+        <di:waypoint x="599" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0obto4e" dmnElementRef="InputData_1lpm6oo">
+        <dc:Bounds height="45" width="125" x="1307" y="197" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1656bnv" dmnElementRef="InformationRequirement_19ujhrt">
+        <di:waypoint x="1370" y="242" />
+        <di:waypoint x="611" y="490" />
+        <di:waypoint x="611" y="510" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1xagf5u" dmnElementRef="InputData_1ygt74x">
+        <dc:Bounds height="45" width="125" x="1407" y="267" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0f2q2ne" dmnElementRef="InformationRequirement_0de4i2e">
+        <di:waypoint x="1470" y="312" />
+        <di:waypoint x="637" y="490" />
+        <di:waypoint x="637" y="510" />
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>

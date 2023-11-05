@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="Definitions_17dubqq" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="Decision_0qu2vud" name="CampiObbligatori">
+    <informationRequirement id="InformationRequirement_16fpg37">
+      <requiredInput href="#InputData_03wnd8l" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_104ezh9">
+      <requiredInput href="#InputData_15rxa6b" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_17qcjgi">
+      <requiredInput href="#InputData_1i8kxgh" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1q4qpbx">
+      <requiredInput href="#InputData_06u1cl7" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_094pxnn">
+      <input id="Input_1" label="Azienda">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1etsrwp" label="Compagnia">
+        <inputExpression id="LiteralExpression_0dh84n7" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1rp52cb" label="DannoTipo">
+        <inputExpression id="LiteralExpression_17kvidw" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_09ktbqn" label="TipoIncarico">
+        <inputExpression id="LiteralExpression_14siu4i" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="CampiObbligatori" typeRef="string" />
+      <rule id="DecisionRule_0cs4huf">
+        <inputEntry id="UnaryTests_02qztky">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0nduqfh">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0kwojsg">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1sn210g">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1orzn62">
+          <text>"Azienda#Compagnia#Agenzia#DannoTipo#TipoDiIncarico#IdIncarico#NumeroSinistro#DataInizioIncarico#DataSinistro#LuogoSinistro#UbicazioneDelRischio#Assicurato#Contraente#Danneggiato"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_03wnd8l" name="Azienda" />
+  <inputData id="InputData_15rxa6b" name="Compagnia" />
+  <inputData id="InputData_1i8kxgh" name="DannoTipo" />
+  <inputData id="InputData_06u1cl7" name="TipoIncarico" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_0qu2vud">
+        <dc:Bounds height="80" width="180" x="340" y="280" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_08ed7sh" dmnElementRef="InputData_03wnd8l">
+        <dc:Bounds height="45" width="125" x="178" y="208" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1actfqc" dmnElementRef="InformationRequirement_16fpg37">
+        <di:waypoint x="241" y="253" />
+        <di:waypoint x="385" y="260" />
+        <di:waypoint x="385" y="280" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0bwthi8" dmnElementRef="InputData_15rxa6b">
+        <dc:Bounds height="45" width="125" x="368" y="158" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0u230tu" dmnElementRef="InformationRequirement_104ezh9">
+        <di:waypoint x="431" y="203" />
+        <di:waypoint x="430" y="260" />
+        <di:waypoint x="430" y="280" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_07jddbb" dmnElementRef="InputData_1i8kxgh">
+        <dc:Bounds height="45" width="125" x="638" y="168" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0suopal" dmnElementRef="InformationRequirement_17qcjgi">
+        <di:waypoint x="701" y="213" />
+        <di:waypoint x="475" y="260" />
+        <di:waypoint x="475" y="280" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1j3qqd6" dmnElementRef="InputData_06u1cl7">
+        <dc:Bounds height="45" width="125" x="587" y="267" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1qxel1l" dmnElementRef="InformationRequirement_1q4qpbx">
+        <di:waypoint x="587" y="290" />
+        <di:waypoint x="540" y="320" />
+        <di:waypoint x="520" y="320" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
