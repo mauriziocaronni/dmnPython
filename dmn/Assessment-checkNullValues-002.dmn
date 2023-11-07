@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_1ck67l4" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.1.0">
-  <inputData id="InputData_0qsry6p" name="Company.Name" />
-  <inputData id="InputData_1m72j5d" name="InsuranceCompany.Name" />
-  <inputData id="InputData_12jqczj" name="DamageType.Name" />
-  <inputData id="InputData_1jn7xnk" name="InstructionType.Name" />
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_1ck67l4" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.13.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.1.0">
+  <inputData id="InputData_0qsry6p" name="Azienda" />
+  <inputData id="InputData_1m72j5d" name="Compagnia" />
+  <inputData id="InputData_12jqczj" name="DannoTipo" />
+  <inputData id="InputData_1jn7xnk" name="TipoDiIncarico" />
   <decision id="Decision_0rukavk" name="RegolaSelezione">
     <informationRequirement id="InformationRequirement_1ep1zqh">
       <requiredInput href="#InputData_0qsry6p" />
@@ -18,27 +18,26 @@
       <requiredInput href="#InputData_1jn7xnk" />
     </informationRequirement>
     <decisionTable id="DecisionTable_1ykzpzn" hitPolicy="FIRST">
-      <input id="InputClause_1brgika" label="Company.Name">
+      <input id="InputClause_1brgika" label="Azienda">
         <inputExpression id="LiteralExpression_01j5wn6" typeRef="string" />
       </input>
-      <input id="InputClause_17sngt7" label="InsuranceCompany.Name">
+      <input id="InputClause_17sngt7" label="Compagnia">
         <inputExpression id="LiteralExpression_1bv46n8" typeRef="string">
           <text></text>
         </inputExpression>
       </input>
-      <input id="InputClause_1mcumbu" label="DamageType.Name">
+      <input id="InputClause_1mcumbu" label="DannoTipo">
         <inputExpression id="LiteralExpression_1jdjj76" typeRef="string">
           <text></text>
         </inputExpression>
       </input>
-      <input id="InputClause_1289262" label="InstructionType.Name">
+      <input id="InputClause_1289262" label="TipoDiIncarico">
         <inputExpression id="LiteralExpression_161w3ho" typeRef="string">
           <text></text>
         </inputExpression>
       </input>
       <output id="OutputClause_0dxzcsl" label="CampiObbligatori" name="RegolaSelezione" typeRef="string" biodi:width="529" />
       <rule id="DecisionRule_0ld84v4">
-        <description></description>
         <inputEntry id="UnaryTests_1dl4hq9">
           <text>-</text>
         </inputEntry>
@@ -52,7 +51,7 @@
           <text>-</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_1enr1tk">
-          <text>"Company.Name#InsuranceCopany.Name#DmageType.Name#InstructionType.Name#ClaimReserve.Amount#Claims.RequestedAmount#PolicyHolederType.Name#Agenzia(CRM)#Claims.LossNotification#Claims.NotificationDate#Coverage.Name#Coverage.Triggered#CGA.Name#InsuredItems.Name#Policies.PolicyNumber"</text>
+          <text>"Azienda#Compagnia#DannoTipo#TipoDiIncarico#RiservaEconomica#AmmontareDanno#ContraenteTipo#Agenzia#TestoDenuncia#DataDenuncia#Garanzia#GaranziaColpita#CGA#Partite#NrPolizza"</text>
         </outputEntry>
       </rule>
     </decisionTable>

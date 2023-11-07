@@ -343,7 +343,7 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="InputEntry_3p8gpda">
-          <text>-</text>
+          <text> - </text>
         </inputEntry>
         <inputEntry id="InputEntry_1dcb5al">
           <text>"Privato"</text>
@@ -382,7 +382,7 @@
           <text>&lt;=1000</text>
         </inputEntry>
         <inputEntry id="InputEntry_1ahl7om">
-          <text>-</text>
+          <text> - </text>
         </inputEntry>
         <inputEntry id="InputEntry_1gi9j8a">
           <text>"Privato"</text>
@@ -485,37 +485,37 @@
       <rule id="DecisionRule_0o32elk">
         <description>Triage successivo</description>
         <inputEntry id="UnaryTests_05zzj7h">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_00a2hat">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_07q7ptu">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_0wgn8o0">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_0iebm3i">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_1id1jcq">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_1i7bpvr">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_0qmkham">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_0x7jltj">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_1jxk2rs">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <inputEntry id="UnaryTests_0i675ig">
-          <text>-</text>
+          <text></text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0v71th0">
           <text>"Nessun Servizio"</text>
