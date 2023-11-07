@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import glob
 
-pathDmn = './dmn/'
+pathDmn = './syntaxCheck/'
 pathTest = './tests/'
 
 fileName = 'Opening-checkCompletedData-011.dmn'
@@ -37,14 +37,19 @@ def main():
     #    keys = ['Azienda', 'Compagnia', 'DannoTipo','TipoIncarico']  
     data = {}
     data['Azienda'] = 'A&A'
+    data['Task'] = "Esegui Perizia post documentale"
     data['Compagnia'] = 'Generali'
     data['DannoTipo'] = 'Danno Elettrico'
-    #data['TipoIncarico'] = 'D'
-    #data['IntervalloDinizioDsinistro'] = 1
-
+ 
+#   data['Company'] = 'A&A'
+#   data['InsuranceCompany'] = 'Generali'
+#   data['DamageType'] = 'Danno Elettrico'
+ 
+ 
     # leggi tutti i file dmn 
     files = glob.glob(pathDmn + '*.dmn')
-
+    print ('processing files: ', files)
+           
     # esegui ciclo su tutti i file dmn
     for file in files:
         result = checkDmn (file, data)

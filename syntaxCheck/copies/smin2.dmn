@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="Definitions_0o0bn0q" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <inputData id="InputData_0qsry6p" name="Company" />
+  <inputData id="InputData_1m72j5d" name="InsuranceCompany" />
+  <inputData id="InputData_12jqczj" name="DamageType" />
+  <inputData id="InputData_1jn7xnk" name="CaseType" />
+  <decision id="Decision_0rukavk" name="RegolaSelezione">
+    <informationRequirement id="InformationRequirement_1ep1zqh">
+      <requiredInput href="#InputData_0qsry6p" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1u0bjd8">
+      <requiredInput href="#InputData_1m72j5d" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0tlemht">
+      <requiredInput href="#InputData_12jqczj" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1v66psd">
+      <requiredInput href="#InputData_1jn7xnk" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_1ykzpzn" hitPolicy="FIRST">
+      <input id="InputClause_1brgika" label="Company">
+        <inputExpression id="LiteralExpression_01j5wn6" typeRef="string" />
+      </input>
+      <input id="InputClause_17sngt7" label="InsuranceCompany">
+        <inputExpression id="LiteralExpression_1bv46n8" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1mcumbu" label="DamageType">
+        <inputExpression id="LiteralExpression_1jdjj76" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1289262" label="CaseType">
+        <inputExpression id="LiteralExpression_161w3ho" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="OutputClause_0dxzcsl" label="CampiObbligatori" name="RegolaSelezione" typeRef="string" />
+      <rule id="DecisionRule_0ld84v4">
+        <inputEntry id="UnaryTests_1dl4hq9">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0v7gbil">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_087ktcy">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0bppsjc">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1enr1tk">
+          <text>"CompanyId#InsuranceCompanyId#AgencyId#DamageTypeId#CaseTypeId#Number#ClaimReferenceNumber#InstructionDate#LossDate#ClaimAddress#Policy.RiskAddressCity#Assicurato#Contraente#Danneggiato"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape id="DMNShape_0lb6yvo" dmnElementRef="InputData_0qsry6p">
+        <dc:Bounds height="45" width="125" x="137" y="47" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_14agu2v" dmnElementRef="InformationRequirement_1ep1zqh">
+        <di:waypoint x="200" y="92" />
+        <di:waypoint x="316" y="220" />
+        <di:waypoint x="316" y="240" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0zcp48z" dmnElementRef="InputData_1m72j5d">
+        <dc:Bounds height="45" width="125" x="267" y="47" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0y8r1m6" dmnElementRef="InformationRequirement_1u0bjd8">
+        <di:waypoint x="330" y="92" />
+        <di:waypoint x="352" y="220" />
+        <di:waypoint x="352" y="240" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0dpwrlg" dmnElementRef="InputData_12jqczj">
+        <dc:Bounds height="45" width="125" x="417" y="47" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_03jwvx9" dmnElementRef="InformationRequirement_0tlemht">
+        <di:waypoint x="480" y="92" />
+        <di:waypoint x="388" y="220" />
+        <di:waypoint x="388" y="240" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1kfiwkx" dmnElementRef="InputData_1jn7xnk">
+        <dc:Bounds height="45" width="125" x="567" y="47" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0fg536u" dmnElementRef="InformationRequirement_1v66psd">
+        <di:waypoint x="630" y="92" />
+        <di:waypoint x="424" y="220" />
+        <di:waypoint x="424" y="240" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0y7my12" dmnElementRef="Decision_0rukavk">
+        <dc:Bounds height="80" width="180" x="280" y="240" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

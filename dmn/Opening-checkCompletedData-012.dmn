@@ -46,7 +46,7 @@
         </inputExpression>
       </input>
       <output id="Output_1isu86u" label="CampiObbligatori" name="CampiObbligatori" typeRef="string" biodi:width="1090" />
-      <output id="OutputClause_1jqgu27" label="CreazionePratica" name="CreazionePratica" typeRef="string" />
+      <output id="OutputClause_1jqgu27" label="CreazioneIncarico" name="CreazioneIncarico" typeRef="string" />
       <rule id="Rule_10ssbl0">
         <description>la richiesta è che ci sia almeno 1 tra i vari tel o mail perl'assicurato </description>
         <inputEntry id="InputEntry_0sl9hdl">
@@ -116,7 +116,7 @@
           <text>"NumeroDiSinistro#DataInizioIncarico#DataSinistro#Assicurato#Contraente#Danneggiato#NumPolizza#TelefonoAssicurato||CellulareAssicurato||TelefonoAltAssicurato||EmailAssicurato"</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_11wgrd6">
-          <text>Automatica Con Campi Obbligatori</text>
+          <text>"Automatica Con Campi Obbligatori"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_12ml6mq">
