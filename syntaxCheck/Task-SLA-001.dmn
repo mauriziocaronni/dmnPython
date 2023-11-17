@@ -13,13 +13,13 @@
     <informationRequirement id="InformationRequirement_0xm7lm4">
       <requiredInput href="#InputData_0wt7i6o" />
     </informationRequirement>
-    <decisionTable id="DecisionTable_0fic2k6" hitPolicy="FIRST">
+    <decisionTable id="DecisionTable_0fic2k6">
       <input id="Input_1hri0e1" label="Azienda">
         <inputExpression id="InputExpression_2knkvqh" typeRef="string">
           <text>Azienda</text>
         </inputExpression>
       </input>
-      <input id="Input_3dsb5ir" label="Compagnia" biodi:width="794">
+      <input id="Input_3dsb5ir" label="Compagnia">
         <inputExpression id="InputExpression_1gvfk6c" typeRef="string">
           <text>Compagnia</text>
         </inputExpression>
@@ -34,9 +34,9 @@
           <text>Task</text>
         </inputExpression>
       </input>
-      <output id="Output_2m0j40a" label="SLA TASK" name="SLA TASK" typeRef="integer" biodi:width="192" />
-      <output id="Output_16bsjcb" label="Peso TASK" name="Peso TASK" typeRef="integer" />
-      <output id="OutputClause_1bw7xyo" label="SLA Appuntamento" typeRef="integer" />
+      <output id="Output_2m0j40a" label="SLA TASK" name="SLA TASK" typeRef="string" biodi:width="192" />
+      <output id="Output_16bsjcb" label="Peso TASK" name="Peso TASK" typeRef="string" />
+      <output id="Output_1r4u3jb" label="SLA Appuntamento" name="SLA Appuntamento" typeRef="integer" />
       <rule id="Rule_3driqe2">
         <description></description>
         <inputEntry id="InputEntry_1l9ecll">
@@ -57,7 +57,7 @@
         <outputEntry id="OutputEntry_1404d40">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1o1rjvx">
+        <outputEntry id="OutputEntry_1136dks">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -81,7 +81,7 @@
         <outputEntry id="OutputEntry_3igrbqn">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1yfz2of">
+        <outputEntry id="OutputEntry_0916eud">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -105,7 +105,7 @@
         <outputEntry id="OutputEntry_0ehcscg">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1i44isp">
+        <outputEntry id="OutputEntry_0hkt5lj">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -129,8 +129,8 @@
         <outputEntry id="OutputEntry_0366oau">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1iktq7n">
-          <text>0</text>
+        <outputEntry id="OutputEntry_05orb8o">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_05j942g">
@@ -153,8 +153,8 @@
         <outputEntry id="OutputEntry_19k5an6">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0g7fo5c">
-          <text>0</text>
+        <outputEntry id="OutputEntry_3th6q43">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_395jr3m">
@@ -177,8 +177,8 @@
         <outputEntry id="OutputEntry_34pj7po">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1p0keew">
-          <text>0</text>
+        <outputEntry id="OutputEntry_19n3lkl">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_33gcjne">
@@ -187,7 +187,7 @@
           <text>"A&amp;A", "Experta",  "Vering"</text>
         </inputEntry>
         <inputEntry id="InputEntry_2spcoka">
-          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese"</text>
+          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese", ""</text>
         </inputEntry>
         <inputEntry id="InputEntry_0gtmuch">
           <text>-</text>
@@ -201,8 +201,8 @@
         <outputEntry id="OutputEntry_3pi4bcg">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0ty2mmg">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0shl8ms">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_3qm75gg">
@@ -225,8 +225,8 @@
         <outputEntry id="OutputEntry_12tcmar">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0nd6hha">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1ljr45r">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_127p9p4">
@@ -249,8 +249,8 @@
         <outputEntry id="OutputEntry_331nkob">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_11ydzh3">
-          <text>0</text>
+        <outputEntry id="OutputEntry_317d01o">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2l9bmb4">
@@ -268,12 +268,12 @@
           <text>"Esegui Documentale"</text>
         </inputEntry>
         <outputEntry id="OutputEntry_0osd25g">
-          <text>0</text>
+          <text>"-"</text>
         </outputEntry>
         <outputEntry id="OutputEntry_08i2blq">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0rnrhoz">
+        <outputEntry id="OutputEntry_14rh7kf">
           <text>4</text>
         </outputEntry>
       </rule>
@@ -292,12 +292,12 @@
           <text>"Esegui Visio"</text>
         </inputEntry>
         <outputEntry id="OutputEntry_22thlb0">
-          <text>0</text>
+          <text>"-"</text>
         </outputEntry>
         <outputEntry id="OutputEntry_2t86m3u">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0sitx46">
+        <outputEntry id="OutputEntry_1c4a22g">
           <text>4</text>
         </outputEntry>
       </rule>
@@ -307,7 +307,7 @@
           <text>"A&amp;A", "Experta",  "Vering"</text>
         </inputEntry>
         <inputEntry id="InputEntry_1a4g21q">
-          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese"</text>
+          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese", ""</text>
         </inputEntry>
         <inputEntry id="InputEntry_15ic9kg">
           <text>not("R.C. Nautica", "R.C. Operatori", "R.C. Prodotti", "R.C. Professionale", "Rapina", "RC Auto", "Responsabilità civile")</text>
@@ -321,8 +321,8 @@
         <outputEntry id="OutputEntry_0d422hv">
           <text>3</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1tnaxvc">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2084tl4">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_078m6a6">
@@ -345,8 +345,8 @@
         <outputEntry id="OutputEntry_01b6uc1">
           <text>4</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1kctuc1">
-          <text>0</text>
+        <outputEntry id="OutputEntry_3c1upip">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2qkn1du">
@@ -369,8 +369,8 @@
         <outputEntry id="OutputEntry_0voj15n">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1f6xscz">
-          <text>0</text>
+        <outputEntry id="OutputEntry_306dm4s">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_0f8364o">
@@ -393,8 +393,8 @@
         <outputEntry id="OutputEntry_1886o4e">
           <text>0.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_15ejg9a">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1bavr1c">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_0etauqr">
@@ -417,8 +417,8 @@
         <outputEntry id="OutputEntry_0gcaocl">
           <text>3</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1defb2r">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2kd2ksh">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1kvf31o">
@@ -441,8 +441,8 @@
         <outputEntry id="OutputEntry_0l42puo">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1vzz2q8">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0p7c64s">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1jl2hvc">
@@ -465,8 +465,8 @@
         <outputEntry id="OutputEntry_2aralsv">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_018b6lb">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2ss7g11">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1fu7a05">
@@ -489,8 +489,8 @@
         <outputEntry id="OutputEntry_3fhkdce">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1sdwsv7">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2m00ljn">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1fkvi3f">
@@ -513,8 +513,8 @@
         <outputEntry id="OutputEntry_2uf2o4p">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0o30shm">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2fq73i4">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_350gfq8">
@@ -537,8 +537,8 @@
         <outputEntry id="OutputEntry_1971sg8">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1kxzvd3">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0jni136">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2ft1e5q">
@@ -561,8 +561,8 @@
         <outputEntry id="OutputEntry_0si7v1l">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1ii2xva">
-          <text>0</text>
+        <outputEntry id="OutputEntry_03e2m4t">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_0sutpi8">
@@ -585,8 +585,8 @@
         <outputEntry id="OutputEntry_3ubu85d">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0eizwvx">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2djbl79">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1lsrn62">
@@ -609,8 +609,8 @@
         <outputEntry id="OutputEntry_1qs48n6">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0pphvpw">
-          <text>0</text>
+        <outputEntry id="OutputEntry_3u20i28">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1nfcb2u">
@@ -633,8 +633,8 @@
         <outputEntry id="OutputEntry_0k1vt72">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0tu38jk">
-          <text>0</text>
+        <outputEntry id="OutputEntry_27ugsct">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2nf2401">
@@ -643,7 +643,7 @@
           <text>"A&amp;A", "Experta",  "Vering"</text>
         </inputEntry>
         <inputEntry id="InputEntry_30c2u9p">
-          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese"</text>
+          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese", ""</text>
         </inputEntry>
         <inputEntry id="InputEntry_3ac321l">
           <text>-</text>
@@ -657,8 +657,8 @@
         <outputEntry id="OutputEntry_1stjm8p">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1mkmtda">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0qs6hpa">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2pt50cs">
@@ -681,8 +681,8 @@
         <outputEntry id="OutputEntry_3bv6k6q">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0wri1dr">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0fj3d6i">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_05pdrhs">
@@ -705,8 +705,8 @@
         <outputEntry id="OutputEntry_2gp6mg1">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1d1cmm4">
-          <text>0</text>
+        <outputEntry id="OutputEntry_14r5ed8">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_07qarb9">
@@ -715,7 +715,7 @@
           <text>"A&amp;A", "Experta",  "Vering"</text>
         </inputEntry>
         <inputEntry id="InputEntry_0hgk9s4">
-          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese"</text>
+          <text>"Generali", "Cattolica", "AXA", "UnipolSai Assicurazioni", "Arca Assicurazioni", "Assicuratrice Milanese", ""</text>
         </inputEntry>
         <inputEntry id="InputEntry_0qedld3">
           <text>-</text>
@@ -729,8 +729,8 @@
         <outputEntry id="OutputEntry_2pjvc4j">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0ztlstn">
-          <text>0</text>
+        <outputEntry id="OutputEntry_3o47b46">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1pc571d">
@@ -753,8 +753,8 @@
         <outputEntry id="OutputEntry_2bc99l0">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1upsyq4">
-          <text>0</text>
+        <outputEntry id="OutputEntry_36m2s3e">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_079j0fo">
@@ -777,8 +777,8 @@
         <outputEntry id="OutputEntry_3s8bd6m">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_08n5kip">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2cn9u5c">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1lruhq1">
@@ -801,8 +801,8 @@
         <outputEntry id="OutputEntry_05i721p">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0a2ek0b">
-          <text>0</text>
+        <outputEntry id="OutputEntry_3quji6m">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2cper32">
@@ -825,8 +825,8 @@
         <outputEntry id="OutputEntry_0uf4mvm">
           <text>0.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_07u05xs">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1fdu107">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_008fio8">
@@ -849,8 +849,8 @@
         <outputEntry id="OutputEntry_3pis4rr">
           <text>0.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1u3v0yf">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1i5hs5g">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1eqfbfb">
@@ -873,8 +873,8 @@
         <outputEntry id="OutputEntry_0egbvum">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0eqa90o">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1eaacgd">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_353uo82">
@@ -897,8 +897,8 @@
         <outputEntry id="OutputEntry_179tsv4">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_03pw92u">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0br3s55">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2ddlafk">
@@ -921,8 +921,8 @@
         <outputEntry id="OutputEntry_3779ror">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0f30ggc">
-          <text>0</text>
+        <outputEntry id="OutputEntry_29vn0rb">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_3dmmg4l">
@@ -945,8 +945,8 @@
         <outputEntry id="OutputEntry_30ljq00">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_052151q">
-          <text>0</text>
+        <outputEntry id="OutputEntry_2plhtka">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1hd31gd">
@@ -969,8 +969,8 @@
         <outputEntry id="OutputEntry_0m97fgb">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_16dp954">
-          <text>0</text>
+        <outputEntry id="OutputEntry_36m5c07">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_3hr8rhe">
@@ -988,12 +988,12 @@
           <text>"Esegui Documentale"</text>
         </inputEntry>
         <outputEntry id="OutputEntry_08tn5p2">
-          <text>0</text>
+          <text>"-"</text>
         </outputEntry>
         <outputEntry id="OutputEntry_3rkiblq">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_17g2l8s">
+        <outputEntry id="OutputEntry_3ib4v86">
           <text>4</text>
         </outputEntry>
       </rule>
@@ -1012,12 +1012,12 @@
           <text>"Esegui Visio"</text>
         </inputEntry>
         <outputEntry id="OutputEntry_04709f4">
-          <text>0</text>
+          <text>"-"</text>
         </outputEntry>
         <outputEntry id="OutputEntry_296j09s">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0o8b1wn">
+        <outputEntry id="OutputEntry_1gs4v60">
           <text>4</text>
         </outputEntry>
       </rule>
@@ -1041,8 +1041,8 @@
         <outputEntry id="OutputEntry_2jmojjv">
           <text>3</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0eij6c4">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0u70sls">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2let99r">
@@ -1065,8 +1065,8 @@
         <outputEntry id="OutputEntry_1f401n6">
           <text>0.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1hhokm7">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0lf1c84">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_3utg25p">
@@ -1089,8 +1089,8 @@
         <outputEntry id="OutputEntry_2olvios">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1cxe2za">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0f04iif">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_06qj745">
@@ -1113,7 +1113,7 @@
         <outputEntry id="OutputEntry_01im52e">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1rko65w">
+        <outputEntry id="OutputEntry_047cn3m">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -1137,7 +1137,7 @@
         <outputEntry id="OutputEntry_18rkn3f">
           <text>2</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1mofzxs">
+        <outputEntry id="OutputEntry_0bj0ks7">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -1161,7 +1161,7 @@
         <outputEntry id="OutputEntry_37i0o1k">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_03b5c3m">
+        <outputEntry id="OutputEntry_23nktve">
           <text>0</text>
         </outputEntry>
       </rule>
@@ -1185,8 +1185,8 @@
         <outputEntry id="OutputEntry_2gtn82i">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_12f9awm">
-          <text>0</text>
+        <outputEntry id="OutputEntry_1bbkbgi">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2rpdluq">
@@ -1209,8 +1209,8 @@
         <outputEntry id="OutputEntry_21p13id">
           <text>1.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_1v1ybgt">
-          <text>0</text>
+        <outputEntry id="OutputEntry_01ikf1u">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_2h24fn6">
@@ -1233,8 +1233,8 @@
         <outputEntry id="OutputEntry_3it0s7e">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_18hiq8y">
-          <text>0</text>
+        <outputEntry id="OutputEntry_0v6dhsk">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_0i24hvl">
@@ -1257,8 +1257,8 @@
         <outputEntry id="OutputEntry_3l045h5">
           <text>1</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_0d8z0on">
-          <text>0</text>
+        <outputEntry id="OutputEntry_25ma0te">
+          <text>-</text>
         </outputEntry>
       </rule>
       <rule id="Rule_27g77qb">
@@ -1281,31 +1281,8 @@
         <outputEntry id="OutputEntry_20h5sa2">
           <text>0.5</text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_15zkvdr">
-          <text>0</text>
-        </outputEntry>
-      </rule>
-      <rule id="DecisionRule_13m6qy6">
-        <inputEntry id="UnaryTests_1oar0di">
+        <outputEntry id="OutputEntry_0vubbre">
           <text>-</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1jaja67">
-          <text>-</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_1aonl01">
-          <text>-</text>
-        </inputEntry>
-        <inputEntry id="UnaryTests_113fys5">
-          <text>-</text>
-        </inputEntry>
-        <outputEntry id="LiteralExpression_0sibpcq">
-          <text>0</text>
-        </outputEntry>
-        <outputEntry id="LiteralExpression_1vnbodd">
-          <text>0</text>
-        </outputEntry>
-        <outputEntry id="LiteralExpression_0xtxus5">
-          <text>0</text>
         </outputEntry>
       </rule>
     </decisionTable>

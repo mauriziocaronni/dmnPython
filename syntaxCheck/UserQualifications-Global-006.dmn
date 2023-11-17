@@ -113,11 +113,17 @@
           <text>PortaleDiProvenienza</text>
         </inputExpression>
       </input>
+      <input id="InputClause_0jwfb26" label="ImportoAccettatoPerizia">
+        <inputExpression id="LiteralExpression_0kxw90p" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
       <output id="Output_33bf1eq" label="user" name="user" typeRef="string" />
       <output id="OutputClause_085ake8" label="PrioritaCompagnia" typeRef="string" />
       <output id="OutputClause_1lsif0v" label="AgenziaEsclusiva" typeRef="string" />
       <output id="OutputClause_0jjpt2k" label="AmministratoreEsclusivo" typeRef="string" />
       <output id="OutputClause_0vang08" label="BrokerEsclusivo" typeRef="string" />
+      <output id="OutputClause_1898um2" label="Authority" typeRef="string" />
       <rule id="Rule_3sjqkfh">
         <description></description>
         <inputEntry id="InputEntry_3amn43m">
@@ -165,6 +171,9 @@
         <inputEntry id="InputEntry_23161va">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1t8qc6r">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3gdbssq">
           <text>"bosio@aeaitalia.com"</text>
         </outputEntry>
@@ -179,6 +188,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0n36o50">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1wa7uvo">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_2u14k3a">
@@ -228,6 +240,9 @@
         <inputEntry id="InputEntry_2b57663">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0fme5tq">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_2k1lnif">
           <text>"bosio@aeaitalia.com"</text>
         </outputEntry>
@@ -242,6 +257,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1uvn4ij">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0fil66z">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_0g5jhvt">
@@ -291,6 +309,9 @@
         <inputEntry id="InputEntry_3fbhru5">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1bppcm1">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3errm9c">
           <text>"catuogno@aeaitalia.com"</text>
         </outputEntry>
@@ -305,6 +326,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0llxk0s">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_18k7iap">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_35j9l71">
@@ -354,6 +378,9 @@
         <inputEntry id="InputEntry_230moop">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_06ok4a9">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3vvtqvs">
           <text>"romanini@aeaitalia.com"</text>
         </outputEntry>
@@ -368,6 +395,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0y4id0i">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0ieoe1z">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_0trjtll">
@@ -417,6 +447,9 @@
         <inputEntry id="InputEntry_3d7r3pv">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_03o12dt">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_1635eov">
           <text>"romanini@aeaitalia.com"</text>
         </outputEntry>
@@ -431,6 +464,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_12kk207">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_05hxu5d">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_22vvnpi">
@@ -480,6 +516,9 @@
         <inputEntry id="InputEntry_18jjagf">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0e6tfoh">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_1neio11">
           <text>"serra@aeaitalia.com"</text>
         </outputEntry>
@@ -494,6 +533,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_10oyxpt">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0a70by8">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1oksgqr">
@@ -543,6 +585,9 @@
         <inputEntry id="InputEntry_0uadtq5">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1gg4z3y">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_029gs0n">
           <text>"serra@aeaitalia.com"</text>
         </outputEntry>
@@ -557,6 +602,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_10lo86s">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1qexc6u">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1hhbp5v">
@@ -606,6 +654,9 @@
         <inputEntry id="InputEntry_04pm7q1">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1cn98e7">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_2l9gt8f">
           <text>"manzi@aeaitalia.com"</text>
         </outputEntry>
@@ -620,6 +671,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1kkl5r4">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0i7beej">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1pe34f9">
@@ -669,6 +723,9 @@
         <inputEntry id="InputEntry_0l9gc3s">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1ecfojm">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_0f71fgn">
           <text>"aguggiaro@aeaitalia.com"</text>
         </outputEntry>
@@ -683,6 +740,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1im37vd">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1yga6v0">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_2ab1gld">
@@ -732,6 +792,9 @@
         <inputEntry id="InputEntry_0kkti2s">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0iv0ln1">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_20rc7ak">
           <text>"manzi@aeaitalia.com"</text>
         </outputEntry>
@@ -746,6 +809,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1vebvdr">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0j7yzex">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1kbffda">
@@ -795,6 +861,9 @@
         <inputEntry id="InputEntry_1cksqvn">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0gi4izj">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_0u4057v">
           <text>"serra@aeaitalia.com"</text>
         </outputEntry>
@@ -809,6 +878,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0p1cduo">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_12xagzf">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3eu88ku">
@@ -858,6 +930,9 @@
         <inputEntry id="InputEntry_1q03pg7">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0n298p3">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_2qfmr60">
           <text>"manzi@aeaitalia.com"</text>
         </outputEntry>
@@ -872,6 +947,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1ebh1sb">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1kgbena">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1ai1fal">
@@ -921,6 +999,9 @@
         <inputEntry id="InputEntry_2u1bt82">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1ul3we2">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_233tn7l">
           <text>"saciotti@aeaitalia.com"</text>
         </outputEntry>
@@ -935,6 +1016,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1wjk6zk">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1ex5lqe">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_2ems4cs">
@@ -984,6 +1068,9 @@
         <inputEntry id="InputEntry_0l0gri7">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_195oj50">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_0ds2isu">
           <text>"serra@aeaitalia.com"</text>
         </outputEntry>
@@ -998,6 +1085,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1cfixo8">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1qc8lje">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1i8cva5">
@@ -1047,6 +1137,9 @@
         <inputEntry id="InputEntry_0qqmg5c">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1ce0two">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_1h0v53h">
           <text>"saciotti@aeaitalia.com"</text>
         </outputEntry>
@@ -1061,6 +1154,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0gboc8t">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0040ccs">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3t6oukm">
@@ -1110,6 +1206,9 @@
         <inputEntry id="InputEntry_0un6lsd">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1kfa26y">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_0qches8">
           <text>"saciotti@aeaitalia.com"</text>
         </outputEntry>
@@ -1124,6 +1223,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_11te47g">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_07qv5f2">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1mivvqd">
@@ -1173,6 +1275,9 @@
         <inputEntry id="InputEntry_3brme50">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0gfqg0h">
+          <text></text>
+        </inputEntry>
         <outputEntry id="OutputEntry_2h1r9pa">
           <text>"basile@aeaitalia.com"</text>
         </outputEntry>
@@ -1187,6 +1292,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0089yh3">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0ax50l7">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_1mkq3eb">
@@ -1236,6 +1344,9 @@
         <inputEntry id="InputEntry_36076pq">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1lpaynw">
+          <text></text>
+        </inputEntry>
         <outputEntry id="OutputEntry_00sp9ij">
           <text>"aimoni@aeaitalia.com"</text>
         </outputEntry>
@@ -1250,6 +1361,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0491lxy">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_08fanz7">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_0cevh7a">
@@ -1299,6 +1413,9 @@
         <inputEntry id="InputEntry_3l90edt">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0d5mdb0">
+          <text></text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3nuis4j">
           <text>"baron@aeaitalia.com"</text>
         </outputEntry>
@@ -1313,6 +1430,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0m2qwuj">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0spf1zh">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3jqetkc">
@@ -1362,6 +1482,9 @@
         <inputEntry id="InputEntry_3e9vdl2">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_11jmwu2">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_28m0aav">
           <text>"baron@aeaitalia.com"</text>
         </outputEntry>
@@ -1376,6 +1499,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0wid707">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_06hvdek">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3eqjr9b">
@@ -1425,6 +1551,9 @@
         <inputEntry id="InputEntry_1eo59q3">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_151h5p4">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3geq4di">
           <text>"baron@aeaitalia.com"</text>
         </outputEntry>
@@ -1439,6 +1568,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0osqr2x">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0z3oqun">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_17n5mji">
@@ -1488,6 +1620,9 @@
         <inputEntry id="InputEntry_1v0t243">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0pt9qy4">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3bol937">
           <text>"spinelli@aeaitalia.com"</text>
         </outputEntry>
@@ -1502,6 +1637,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0ar2ce9">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1b285is">
+          <text>(ImportoAccertatoPerizia&gt;="10000?"SI":"NO")</text>
         </outputEntry>
       </rule>
       <rule id="Rule_1qsr4o0">
@@ -1551,6 +1689,9 @@
         <inputEntry id="InputEntry_2f52sri">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0adggun">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_1opokgn">
           <text>"turatti@aeaitalia.com"</text>
         </outputEntry>
@@ -1565,6 +1706,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1x4ragp">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_14x38zm">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3uh1kt6">
@@ -1614,6 +1758,9 @@
         <inputEntry id="InputEntry_0ffq6i5">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1nc8o85">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_16fqrsm">
           <text>"turatti@aeaitalia.com"</text>
         </outputEntry>
@@ -1628,6 +1775,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1y5mzih">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0wwu898">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3ug6ct2">
@@ -1677,6 +1827,9 @@
         <inputEntry id="InputEntry_0mtnstv">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0cf4hnv">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_372j02g">
           <text>"bilotti@aeaitalia.com"</text>
         </outputEntry>
@@ -1691,6 +1844,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0neucqk">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_02udybp">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3cv7rc3">
@@ -1740,6 +1896,9 @@
         <inputEntry id="InputEntry_0gc4l59">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_03eyjal">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_0o2d5ur">
           <text>"rotella@aeaitalia.com"</text>
         </outputEntry>
@@ -1754,6 +1913,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1qa270b">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_099b0c9">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_0ikouhn">
@@ -1803,6 +1965,9 @@
         <inputEntry id="InputEntry_3ekntj7">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0vwvyjr">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_1tj388l">
           <text>"spinelli@aeaitalia.com"</text>
         </outputEntry>
@@ -1817,6 +1982,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0wvo7e2">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1klxi7x">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_3s2f4g0">
@@ -1866,6 +2034,9 @@
         <inputEntry id="InputEntry_3hjjo24">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1jodcqc">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_3bbqij6">
           <text>"aguggiaro@aeaitalia.com"</text>
         </outputEntry>
@@ -1880,6 +2051,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1qsdtk1">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_08sfyzi">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="Rule_2skku33">
@@ -1929,6 +2103,9 @@
         <inputEntry id="InputEntry_3v8hgm6">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_0iuub5c">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="OutputEntry_2sa2vsc">
           <text>"demino@aeaitalia.com"</text>
         </outputEntry>
@@ -1943,6 +2120,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1f1eqiz">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0ijxa21">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_05xy787">
@@ -1991,6 +2171,9 @@
         <inputEntry id="UnaryTests_0v3hvz4">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1euvp4g">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="LiteralExpression_07891nv">
           <text>"demino@aeaitalia.com"</text>
         </outputEntry>
@@ -2005,6 +2188,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_047nh6j">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1jednmu">
+          <text></text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_1p4hgn4">
@@ -2053,6 +2239,9 @@
         <inputEntry id="UnaryTests_1hb6bwi">
           <text>-</text>
         </inputEntry>
+        <inputEntry id="UnaryTests_1aj9syi">
+          <text>-</text>
+        </inputEntry>
         <outputEntry id="LiteralExpression_08b3nvm">
           <text>"Nessun utente"</text>
         </outputEntry>
@@ -2067,6 +2256,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_0pjiubd">
           <text>""</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_174gns3">
+          <text></text>
         </outputEntry>
       </rule>
     </decisionTable>

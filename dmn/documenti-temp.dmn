@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" id="Definitions_1560s3p" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.2.0">
+  <decision id="Decision_00dwz77" name="Documenti Obbligatori">
+    <informationRequirement id="InformationRequirement_1fqk8wm">
+      <requiredInput href="#InputData_1mxyhfx" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_00jx82j">
+      <requiredInput href="#InputData_1rpb4aj" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0lfnabf">
+      <requiredInput href="#InputData_0dkwks4" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_07uh87p">
+      <requiredInput href="#InputData_031lc0y" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_043rsyq">
+      <input id="Input_1" label="Azienda">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_00osg46" label="Compagnia">
+        <inputExpression id="LiteralExpression_1mv6pp5" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0depbm2" label="DannoTipo">
+        <inputExpression id="LiteralExpression_04595bv" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1lh77qd" label="TipoIncarico">
+        <inputExpression id="LiteralExpression_19nmcsb" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Documenti Obbligatori" typeRef="string" />
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_1mxyhfx" name="Azienda" />
+  <inputData id="InputData_1rpb4aj" name="Compagnia" />
+  <inputData id="InputData_0dkwks4" name="DannoTipo" />
+  <inputData id="InputData_031lc0y" name="TipoIncarico" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_00dwz77">
+        <dc:Bounds height="80" width="180" x="770" y="380" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_0wylyho" dmnElementRef="InputData_1mxyhfx">
+        <dc:Bounds height="45" width="125" x="458" y="248" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1ho6ea1" dmnElementRef="InformationRequirement_1fqk8wm">
+        <di:waypoint x="521" y="293" />
+        <di:waypoint x="806" y="360" />
+        <di:waypoint x="806" y="380" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1d2856o" dmnElementRef="InputData_1rpb4aj">
+        <dc:Bounds height="45" width="125" x="578" y="198" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1aeoqhx" dmnElementRef="InformationRequirement_00jx82j">
+        <di:waypoint x="641" y="243" />
+        <di:waypoint x="842" y="360" />
+        <di:waypoint x="842" y="380" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0ycxrrk" dmnElementRef="InputData_0dkwks4">
+        <dc:Bounds height="45" width="125" x="788" y="168" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0gia9wz" dmnElementRef="InformationRequirement_0lfnabf">
+        <di:waypoint x="851" y="213" />
+        <di:waypoint x="878" y="360" />
+        <di:waypoint x="878" y="380" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_1q7n5pz" dmnElementRef="InputData_031lc0y">
+        <dc:Bounds height="45" width="125" x="978" y="199" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0h2zicz" dmnElementRef="InformationRequirement_07uh87p">
+        <di:waypoint x="1041" y="244" />
+        <di:waypoint x="914" y="360" />
+        <di:waypoint x="914" y="380" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
