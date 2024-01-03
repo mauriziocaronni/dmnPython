@@ -13,9 +13,9 @@ ns = {'dmn': 'https://www.omg.org/spec/DMN/20191111/MODEL/'}
 pathDmn = './dmn/'
 pathTest = './tests/'
 
-fileName = 'Opening-checkNullValues-008'
-testScenario = 'Opening-checkNullValues-008-TestScenario-001'
-outputField = 'RequiredFields'
+fileName = 'Task-SLA-003'
+testScenario = 'Task-SLA-003-TestScenario-001'
+outputField = 'SlaTask'
 
 def getInputs ( dmnFile ):
     # Carica il file DMN
@@ -48,6 +48,7 @@ def evalDmn ( dmnFile, data ):
     # controlla i dati di input
     dataKeys = list(inputData.keys())
     print('data keys:', dataKeys)  
+    print('input list:', inputList)  
     if set(inputList) != set(dataKeys):
         print("Errore campi input")
         return []

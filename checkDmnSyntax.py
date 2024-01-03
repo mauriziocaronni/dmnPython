@@ -7,7 +7,7 @@ import glob
 pathDmn = './syntaxCheck/'
 pathTest = './tests/'
 
-fileName = 'Opening-checkCompletedData-011.dmn'
+fileName = 'SubProcess-SLA-002.dmn'
 # fileName = 'diagram.dmn'
 
 def checkDmn ( dmnFile, data ):
@@ -36,15 +36,15 @@ def main():
     # set Data
     #    keys = ['Azienda', 'Compagnia', 'DannoTipo','TipoIncarico']  
     data = {}
-    data['Azienda'] = 'A&A'
-    data['Task'] = "Esegui Perizia post documentale"
-    data['Compagnia'] = 'Generali'
-    data['DannoTipo'] = 'Danno Elettrico'
- 
-#   data['Company'] = 'A&A'
-#   data['InsuranceCompany'] = 'Generali'
-#   data['DamageType'] = 'Danno Elettrico'
- 
+    #data['Azienda'] = 'A&A'
+    #data['Compagnia'] = 'Generali'
+    #data['DannoTipo'] = 'Danno Elettrico'
+    #data['Processo'] = 'Apertura'
+
+    data['Company'] = 'A&A'
+    data['InsuranceCompany'] = 'Generali'
+    data['DamageType'] = 'Danno Elettrico'
+    data['Task'] = 'Completa Creazione Incarico'
  
     # leggi tutti i file dmn 
     files = glob.glob(pathDmn + '*.dmn')

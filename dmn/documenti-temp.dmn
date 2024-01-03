@@ -35,6 +35,23 @@
         </inputExpression>
       </input>
       <output id="Output_1" label="Documenti Obbligatori" typeRef="string" />
+      <rule id="DecisionRule_00mzwet">
+        <inputEntry id="UnaryTests_089nkzk">
+          <text>"A&amp;A"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0t0519s">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1yhdt3k">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_064u2oh">
+          <text>"A","B"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1pjsiou">
+          <text>"Foto"</text>
+        </outputEntry>
+      </rule>
     </decisionTable>
   </decision>
   <inputData id="InputData_1mxyhfx" name="Azienda" />
