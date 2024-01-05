@@ -13,9 +13,9 @@ ns = {'dmn': 'https://www.omg.org/spec/DMN/20191111/MODEL/'}
 pathDmn = './dmn/'
 pathTest = './tests/'
 
-fileName = 'Task-SLA-003'
-testScenario = 'Task-SLA-003-TestScenario-001'
-outputField = 'SlaTask'
+fileName = 'Task-Trigger-005'
+testScenario = 'Task-Trigger-005-TestScenario-001'
+outputField = 'EventAtTrigger'
 
 def getInputs ( dmnFile ):
     # Carica il file DMN

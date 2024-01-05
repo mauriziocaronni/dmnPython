@@ -44,7 +44,7 @@ def main():
     data['Company'] = 'A&A'
     data['InsuranceCompany'] = 'Generali'
     data['DamageType'] = 'Danno Elettrico'
-    data['Task'] = 'Completa Creazione Incarico'
+    data['Task'] = 'VenditaRiparazionePA1'
  
     # leggi tutti i file dmn 
     files = glob.glob(pathDmn + '*.dmn')
